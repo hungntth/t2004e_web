@@ -1,0 +1,18 @@
+body{
+    text-align: giustify;
+    padding-left: 350px;
+    padding-right: 180px
+
+}
+p.one {
+    color: #ff174c;
+}
+p.two{
+    text-align: right;
+}
+h2{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    color: #ff174c;
+}
