@@ -1,0 +1,114 @@
+.total
+{
+    height:2000px;
+    width:800px;
+
+}
+
+
+.tab
+{
+    height:100px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 0px;
+}
+.pic
+{
+    float:left;
+    width:15%;
+}
+.content
+{
+    float:left;
+    width:45%;
+    margin:10px 0px 5px 5px;
+    height:80px;
+    box-sizing: border-box;
+
+}
+.price
+{
+    float:right;
+    height:80px;
+    margin:10px;
+    width:30%;
+    text-align: center;
+    position:relative;
+}
+.name1 {
+    font-size: 20px;
+    color: orange;
+}
+.name2 {
+    font-size: 20px;
+    color: orangered;
+}
+.name3
+{
+    font-size: 20px;
+    color: greenyellow;
+}
+.name4
+{
+    font-size: 20px;
+    color: orange;
+}
+
+.subcontent{
+    margin:5px;
+    float:left;
+
+}
+.discount
+{
+    text-decoration: line-through;
+}
+.after
+{
+    font-size:30px;
+}
+p
+{
+    margin:0;
+    padding:0;
+}
+.property1
+{
+    color: orange;
+}
+.property2
+{
+    color: orangered;
+}
+.property3
+{
+    color:greenyellow;
+}
+.property4
+{
+    color:orange;
+}
+.view
+{   padding:0;
+    margin :0;
+    height: 18px;
+    width: 40px;
+    border-radius: 5px;
+
+    position:absolute;
+    left:40%;
+    background-color: orange;
+}
+
+.soldout
+{   padding:0;
+    margin: 0;
+    height: 21px;
+    width: 60px;
+    border-radius: 5px;
+
+    position:absolute;
+    left:40%;
+    background-color: red;
+}
