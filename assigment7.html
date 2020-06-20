@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    var x = prompt("Nhập số thứ nhất");
+    var x1 = prompt("Nhập số thứ hai");
+    for(;x==x1;){
+        var x1 = prompt("Nhập lại số thứ hai");
+    }
+    var x2 = prompt("Nhập số thứ ba");
+
+    for(;x2==x||x2==x1;){
+        var x2 = prompt("Nhập lại số thứ ba");
+    }
+    var x3 = prompt("Nhập số thứ tư");
+
+    for(;x3==x||x3==x1||x3==x2;){
+        var x3 = prompt("Nhập lại số thứ  tư");
+    }
+    var x4 = prompt("Nhập số cuối cùng");
+
+    for(;x4==x||x4==x1||x4==x2||x4==x3;){
+        var x4 = prompt("Nhập lại số cuối cùng");
+    }
+    var y = parseInt(Math.random()*100);
+    var y1 = parseInt(Math.random()*100);
+    for(;y1==y;){
+        var y1 = parseInt(Math.random()*100);
+    }
+    var y2 = parseInt(Math.random()*100);
+    for(;y2==y||y2==y1;){
+        var y2 = parseInt(Math.random()*100);
+    }
+    var y3 = parseInt(Math.random()*100);
+    for(;y3==y||y3==y1||y3==y2;){
+        var y3 = parseInt(Math.random()*100);
+    }
+    var y4 = parseInt(Math.random()*100);
+    for(;y4==y||y4==y1||y4==y2||y4==y3;){
+        var y4 = parseInt(Math.random()*100);
+    }
+    var z=0
+    if(x==y||x==y1||x==y2||x==y3||x==y4){
+            z++;
+    }else{}
+    if(x1==y||x1==y1||x1==y2||x1==y3||x1==y4){
+        z++;
+    }else{}
+    if(x2==y||x2==y1||x2==y2||x2==y3||x2==y4){
+        z++;
+    }else{}
+    if(x3==y||x3==y1||x3==y2||x3==y3||x3==y4){
+        z++;
+    }else{}
+    if(x4==y||x4==y1||x4==y2||x4==y3||x4==y4){
+        z++;
+    }else{}
+    // alert("so dau tien: "+y);
+    // alert("so thu hai: "+y1);
+    // alert("so thu ba: "+y2);
+    // alert("so thu tu: "+y3);
+    // alert("so thu nam: "+y4);
+    if(z<=0){
+        alert("Báo nhà rồi");
+    }else{
+        alert("Bạn ăn được: "+z);
+    }
+    //
+    // }
+    // if(x1==y||x1==y1||x1==y2||x1==y3||x=1=y4){
+    //     z=z+1;
+    // }
+    // if(x2==y||x2==y1||x2==y2||x2==y3||x2==y4){
+    //     z=z+1;
+    // }
+    // if(x3==y||x3==y1||x3==y2||x3==y3||x3==y4){
+    //     z=z+1;
+    // }
+    // if(x4==y||x4==y1||x4==y2||x4==y3||x4==y4){
+    //     z=z+1;
+    // }
+
+
+</script>
+</body>
+</html>
