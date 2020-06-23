@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demojs2</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let obj  ={
+            name:"Nguyen Van An",
+            age: 18,
+            address:"8 ton that thuyet",
+            run: function () {
+                    console.log(this.name+ " is Running...");
+            },
+        children: {
+            name: "Nguyen Van Binh",
+                birthday: "22-5-1999",
+            children:{
+                name: "Nguyen van nam",
+                eat: function () {
+                    console.log("Uong sua")
+
+                }
+            }
+        }
+        };
+
+        console.log(obj.name);
+        obj.run(obj.name);
+        console.log("ten cua con "+obj.children.name);
+        console.log("ten cua con "+obj.children.children.name);
+        obj.children.children.eat();
+    </script>
+</body>
+</html>

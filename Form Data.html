@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data</title>
+    <link rel="stylesheet" href="css/formdata.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/fontawsome/css/all.css"/>
+</head>
+<body>
+<form method="get" action="#">
+    <input class="input-text"  type="text" name="username" placeholder="Username..." required/>
+    <br> <br>
+    <input class="input-text" type="email" name="email" placeholder="Email..."required/><br> <br>
+    <input class="input-text" type="password" name="user_password" placeholder="Password..."required/> <br> <br>
+    <label><input type="checkbox" name="ready"/>I'm ready</label> <br> <br>
+    <label><input type="radio" name="sex" value="male"/>Male</label>
+    <label><input type="radio" name="sex" value="famale"/>Famale</label>
+    <label><input type="radio" name="sex" value="other"/>Other</label>
+    <br>
+    <br>
+    <input type="date" name="birthday" placeholder="Birthday..." required />
+    <br>
+    <br>
+    <input type="color" name="color" />
+    <input type="number" name="money" placeholder="Your money ..."/>
+    <br>
+    <br>
+    <input type="range" name="volumes" min="0" max="10" placeholder="Volumes..."/>
+    <br>
+    <br>
+    <input type="file" name="avatar" placeholder="Avatar..."/>
+
+    <input type="hidden" name="_token" value="aaaaaaiikikiki"/>
+    <br> <br>
+    <select name="faculty">
+        <option value="toan">Toan</option>
+        <option value="ly">Ly</option>
+        <option value="hoa">Hoa</option>
+        <option value="van">Van</option>
+
+    </select>
+    <br><br>
+    <textarea name="tieusu" id="" cols="30" rows="10" placeholder="Tieu SU"></textarea>
+
+    </textarea>
+    <br> <br>
+    <button type="submit"><i class="fas fa-fighter-jet"></i></button>
+    <button type="reset">Reset</button>
+    <button type="button">Button</button>
+    <br>
+    <br>
+
+</form>
+</body>
+</html>
