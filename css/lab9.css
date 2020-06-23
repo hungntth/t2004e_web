@@ -1,6 +1,5 @@
 .tab{
     overflow: hidden;
-    /*border: 1px solid #ff253a;*/
     background-color: white;
 }
 .tab button{
@@ -12,13 +11,18 @@
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
 }
 div.tab button:hover {
     background-color: #ddd;
 }
 .tabcontent {
     display: none;
-    padding: 6px 12px;
+    padding: 8px 12px;
+    border-top: 1px solid #ccc;
+}
+.tab button:focus{
     border: 1px solid #ccc;
-    border-top: none;
+    border-bottom: 2px solid white;
 }
