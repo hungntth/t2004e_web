@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/lab9.css">
+</head>
+<body>
+    <div class="tab">
+        <button class="tab1" onclick="home()">Home</button>
+        <button class="tab2"onclick="profile()" >Profile</button>
+        <button class="tab3" onclick="messages()">Messages</button>
+        <button class="tab4"onclick="settings()">Settings</button>
+    </div>
+    <div id="home" class="tabcontent">
+        <p>This is Home content</p>
+    </div>
+    <div id="profile" class="tabcontent">
+        <p>This is Profile content</p>
+    </div>
+    <div id="messages" class="tabcontent">
+        <p>This is Messages content</p>
+    </div>
+    <div id="settings" class="tabcontent">
+        <p>This is Settings content</p>
+    </div>
+    <script type="text/javascript">
+        function home() {
+            document.getElementById("profile").style.display="none";
+            document.getElementById("messages").style.display="none";
+            document.getElementById("settings").style.display="none";
+            document.getElementById("home").style.display="block";
+        }
+         function profile() {
+             document.getElementById("home").style.display="none";
+             document.getElementById("messages").style.display="none";
+             document.getElementById("settings").style.display="none";
+            document.getElementById("profile").style.display="block";
+        }
+         function messages() {
+             document.getElementById("home").style.display="none";
+             document.getElementById("profile").style.display="none";
+             document.getElementById("settings").style.display="none";
+            document.getElementById("messages").style.display="block";
+        }
+         function settings() {
+             document.getElementById("home").style.display="none";
+             document.getElementById("messages").style.display="none";
+             document.getElementById("profile").style.display="none";
+            document.getElementById("settings").style.display="block";
+        }
+
+    </script>
+</body>
+</html>
